@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nest-orm/shared": ["libs/shared/src/index.ts"],
+      "@nest-orm/shared/dto": ["libs/shared/src/index.ts"],
+      "@nest-orm/shared/entity": ["libs/shared/src/lib/entity"],
+      "@nest-orm/shared/interceptor": ["libs/shared/src/lib/interceptors"],
+      "@nest-orm/shared/repository": ["libs/shared/src/lib/repository"],
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
