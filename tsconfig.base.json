@@ -16,10 +16,12 @@
     "baseUrl": ".",
     "paths": {
       "@nest-orm/shared": ["libs/shared/src/index.ts"],
-      "@nest-orm/shared/dto": ["libs/shared/src/index.ts"],
+      "@nest-orm/shared/command": ["libs/shared/src/lib/command"],
+      "@nest-orm/shared/constant": ["libs/shared/src/lib/constants"],
+      "@nest-orm/shared/dto": ["libs/shared/src/lib/dto"],
       "@nest-orm/shared/entity": ["libs/shared/src/lib/entity"],
       "@nest-orm/shared/interceptor": ["libs/shared/src/lib/interceptors"],
-      "@nest-orm/shared/repository": ["libs/shared/src/lib/repository"],
+      "@nest-orm/shared/repository": ["libs/shared/src/lib/repository"]
     }
   },
   "exclude": ["node_modules", "tmp"]
